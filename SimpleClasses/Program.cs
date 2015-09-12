@@ -17,10 +17,7 @@ namespace SimpleClasses
             myNewCar.Year = 1998;
             myNewCar.Color = "red";
 
-            Console.WriteLine("{0} - {1} - [2}",
-                myNewCar.Make,
-                myNewCar.Model,
-                myNewCar.Color);
+            Console.WriteLine("{0} - {1} - [2}", myNewCar.Make, myNewCar.Model, myNewCar.Color);
 
             Console.WriteLine("Car's value: {0:C}", myNewCar.determineMarketValue());
 
